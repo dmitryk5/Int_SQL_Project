@@ -1,7 +1,21 @@
 # Sales Analysis 
 
-## Overview
-Analysis of customer behavior, retention, and lifetime value for an e-commerce company to improve customer retention and maximize revenue.
+## Table of Contents
+1. [Overview](#overview)
+2. [Business Questions](#business-questions)
+3. [Analysis Approach](#analysis-approach)
+   - [Customer Segmentation](#1-customer-segmentation-analysis)
+   - [Cohort Analysis](#2-cohort-analysis)
+   - [Customer Retention](#3-customer-retention)
+4. [Strategic Recommendations](#strategic-recommendations)
+5. [Technical Details](#technical-details)
+6. [Project Files](#project-files)
+7. [Next Steps](#next-steps)
+8. [Author & Contact](#author--contact)
+
+## Executive Summary
+
+This analysis identifies key drivers of customer value and retention for an e-commerce business. Through SQL-based segmentation, cohort tracking, and churn modeling, we uncovered that 66% of total revenue is concentrated among 25% of customers, signaling strong opportunities in retention and reactivation strategies.
 
 ## Business Questions
 **Customer Segmentation:** Who are our most valuable customers?
@@ -74,6 +88,15 @@ Query: [3_retention_analysis.sql](/Scripts/3_retention_analysis.sql)
 - Re-engage high-value churned customers by focusing on targeted win-back campaigns rather than broad retention efforts, as reactivating valuable users may yield higher ROI.
 - Predict & preempt churn risk and use customer-specific warning indicators to proactively intervene with at-risk users before they lapse.
 
+## Key Business Outcomes 
+| Initiative               | Expected Impact                    | Metric                    |
+| ------------------------ | ---------------------------------- | ------------------------- |
+| VIP Program              | +10% retention in high-value group | +$13.5M annual revenue    |
+| Mid-tier Upsell Campaign | 20% upgrade conversion             | +$12M incremental revenue |
+| Churn Prevention System  | 5% churn reduction                 | +$6M saved revenue        |
+
+
+
 ## Strategic Recommendations
 
 1. Customer Value Optimization (Customer Segmentation)
@@ -90,7 +113,6 @@ Query: [3_retention_analysis.sql](/Scripts/3_retention_analysis.sql)
    - Focus on targeted win-back campaigns for high-value churned customers
    - Implement proactive intervention system for at-risk customers before they lapse
 
-
 ## Technical Details
 **Database:** PostgreSQL
 
@@ -98,3 +120,8 @@ Query: [3_retention_analysis.sql](/Scripts/3_retention_analysis.sql)
 
 **Visualization:** Python & Tableau
 
+---
+### Author & Contact
+**Dmitry Kuvyrdin**  
+📧 [dmitry.kuvy@gmail.com](dmitry.kuvy@gmail.com)  
+💼 [LinkedIn Profile](https://www.linkedin.com/in/dmitry-kuvyrdin/) 
