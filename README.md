@@ -57,11 +57,11 @@ Query: [2_cohort_analysis.sql](Scripts/2_cohort_analysis.sql)
 
 ### 3. Customer Retention
 
-Query: [3_retention_analysis.sql]()
+Query: [3_retention_analysis.sql](/Scripts/3_retention_analysis.sql)
 
 **Visualization**
-![Customer Retention]()
-
+![Customer Retention](/images/customer_retention.png)
+![Customer Retention 2](/images/customer_retention_2.png)
 **Key Findings:**
 
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable long-term retention pattern.
