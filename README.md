@@ -15,7 +15,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
 
-Query: [1_customer_segmentation.sql](/Users/dmitrykuvyrdin/Library/DBeaverData/workspace6/Int_SQL_Project/2_cohort_analysis.sql)
+Query: [1_customer_segmentation.sql](Scripts/1_customer_segmentation.sql)
 
 **Visualization:**
 ![Customer Segmentation](/images/total_ltv_distribution.png)
@@ -37,7 +37,7 @@ Query: [1_customer_segmentation.sql](/Users/dmitrykuvyrdin/Library/DBeaverData/w
 - Cohorts were grouped by year of first purchase
 - Analyzed customer retention at a cohort level
 
-Query: [revenue_cohort_year.sql](/Scripts/revenue_cohort_year.sql)
+Query: [2_cohort_analysis.sql](Scripts/2_cohort_analysis.sql)
 
 **Visualization**
 ![Cohort Analysis](/images/revenue_cohort_year.png)
